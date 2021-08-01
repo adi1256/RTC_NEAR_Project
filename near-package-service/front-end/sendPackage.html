@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEAR Package Delivery Service</title>
+  </head>
+  <body>
+    <h1>Send Your Package</h1>
+   
+
+    <form action="signout.html">
+    <h2>Sign Out</h2>
+    <button id="sign-out">Sign Out</button>
+    
+    <!--input type="submit" value="Go to Google" /-->
+    </form>
+    
+    <h2>View Orders</h2>
+    <button id="view-order">View Order</button>
+
+     <h1> ENter Details: </h1>
+     <form id="assignment-form">
+      <label>From Person Name</label>
+      <input id="accountId" name="accountId" type="text" />
+      
+      <label>Add To Address</label>
+      <textarea id="text" name="text"></textarea>
+
+      <label>Amount to pay</label>
+      <input id="amount" name="amount" type="number" />
+
+      
+      <label>Sender's Message</label>
+      <input id="msg" name="msg" type="text" />
+
+      <button>Create Assignment</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/near-api-js@0.42.0/dist/near-api-js.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
